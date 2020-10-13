@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trekking Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <section class="header-top">
@@ -17,9 +20,9 @@
 
             <div class="header-top-left">
                 <ul class="header-top-left_list">
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li><i class="fas fa-shopping-cart"></i></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </div>
         </section>
@@ -28,10 +31,35 @@
             <h2>Our clothing , your comfort</h2>
 
             <article>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
+                eiusmod tempor incididunt ut labore et dolore <br>
                 magna aliqua.
             </article>
+
+            <div class="header-middle_icon">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </section>
     </header>
+
+    <main>
+        <section class="main-filter">
+            <div class="filter-checkbox">
+                <input id="men" type="checkbox">
+                <label for="men">Men</label>
+
+                <input id="women" type="checkbox">
+                <label for="women">Women</label>
+
+                <input id="children" type="checkbox">
+                <label for="children">Children</label>
+            </div>
+
+            <div class="filter-all">
+                <button>SEE ALL PRODUCTS</button>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
