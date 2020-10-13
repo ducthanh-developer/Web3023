@@ -35,6 +35,10 @@ header {
     margin-left: 4.5vw;
 }
 
+.header-top-left_list li a:hover {
+    color: orange;
+}
+
 .header-top-left_list li a {
     text-decoration: none;
     color: var(--white-color);
@@ -371,6 +375,29 @@ footer {
         width: 100%;
         height: 70vw;
         margin-bottom: 5vw;
+    }
+
+    .main-filter {
+        flex-direction: column;
+    }
+
+    .filter-checkbox {
+        margin-bottom: 3vw;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .content-left {
+        margin-top: 4vw;
+    }
+
+    .content-right {
+        margin-left: 7.8vw;
+        margin-bottom: 4vw;
     }
 }
 
